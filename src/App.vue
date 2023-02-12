@@ -3,7 +3,7 @@
     <div class="app-wrap">
       <SnakeGame />
       <div>
-        <h3> Cookie  NFT Monster</h3>
+        <h3> Cookie  NFT Snake</h3>
         <img src="./assets/us.jpg" width="450">
         <h4>GID Hub- Gabbie, Ioana and Denis </h4>
       </div>
