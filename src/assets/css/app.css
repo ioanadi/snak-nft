@@ -1,0 +1,68 @@
+#app {
+  text-align: center;
+}
+
+/* body {
+  font-family: "Roboto";
+} */
+
+.main {
+  display: inline-grid;
+  padding: 1px;
+  border: solid 1px #e11f8a;
+  border-radius: 5px;;
+  margin: 0.5em;
+  box-shadow: -4px -4px 25px rgba(151, 71, 255, 0.4), 4px 4px 25px rgba(151, 71, 255, 0.4);
+ margin-right: 5em;;
+ background-color: white;;
+}
+
+img {
+  margin: 5em;;
+  border-radius: 10px;
+  box-shadow: -4px -4px 25px rgba(151, 71, 255, 0.4), 4px 4px 25px rgba(151, 71, 255, 0.4);
+
+}
+
+.item {
+  width: 2em;
+  height: 2em;
+}
+
+.snake-head {
+  background-image: url("../../assets/head.png") !important;
+  background-size: contain;
+}
+ .snake {
+  background-image: url("../../assets/body.png");
+  background-size: contain;
+}
+.prize {
+  background-image: url("../../assets/cookie.png");
+  background-size: contain;
+}
+.crashed {
+  background-color: rgb(255, 0, 144);
+  background-image: none;;
+}
+
+.score {
+  padding: 0.5em;
+}
+.actions {
+  padding: 0.5em;
+}
+
+.app-wrap {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../assets/PLAY.png");
+  padding: 5em;;
+
+}
+h3 {
+  color: blue;
+}
+h4 {
+  color: #e11f8a;
+}
